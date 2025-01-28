@@ -10,7 +10,7 @@
 
                  stage ('Checkout SCM'){
              steps {
-            git credentialsId: 'git', url: 'https://github.com/amoghazy-organization/h18-eos-micro-services-order-api-deploy.git', branch:  "main"
+            git credentialsId: 'git', url: 'https://github.com/amoghazy-organization/18-eos-micro-services-order-api-deploy.git', branch:  "main"
           }}
 
 
